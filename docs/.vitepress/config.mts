@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "FireFly",
   description: "A VitePress Site",
+  base: "/FireFly/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
